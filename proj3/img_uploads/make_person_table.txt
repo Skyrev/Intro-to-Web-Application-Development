@@ -1,0 +1,33 @@
+use jadrn054;
+
+drop table if exists person;
+
+create table person(
+	pic varchar(20) NOT NULL,
+    firstname varchar(50) NOT NULL,
+	middlename varchar(50),
+	lastname varchar(50) NOT NULL,
+    addrline1 varchar(100) NOT NULL,
+	addrline2 varchar(100),
+    city varchar(30) NOT NULL,
+    state char(2) NOT NULL,
+    zip char(5) NOT NULL,
+	phone char(12) NOT NULL,
+    emailid varchar(50) NOT NULL,
+	gender varchar(6) NOT NULL,
+	dob char(10) NOT NULL,
+	medcond varchar(100),
+	explvl varchar(11) NOT NULL,
+	category varchar(6) NOT NULL);
+	
+INSERT INTO person VALUES('img_619-674-8593.png','Akash','','Revankar','6595 Montezuma Road','Apt 25','San Diego','CA','92115','619-674-8593','akash@revankar.com','Male','10/12/1991','None','Novice','Adult');
+
+INSERT INTO person VALUES('img_930-280-5748.jpg','Richa','Vilas','Pawar','Medical Street 5a','','Nizhny','NY','60340','930-280-5748','richa@pawar.com','Female','02/10/1993','None','Novice','Adult');
+
+INSERT INTO person VALUES('img_897-156-9430.jpg','Ashish','','Patil','19, Privet Drive','Little whining, Surrey','San Diego','CA','52141','897-156-9430','ashish@patil.com','Male','09/24/1991','None','Experienced','Adult');
+
+INSERT INTO person VALUES('img_619-888-9999.jpg','Billy','','Batson','777 Shazam Street', '', 'Los Angeles','CA','99123','619-888-9999','shazam@jl.com','Male','01/10/2003','None','Novice','Teen');
+
+INSERT INTO person VALUES('img_876-777-6666.jpg','Damian','','Wayne','Wayne Manor','','Gotham','MI','87654','876-777-6666','damian@tt.com','Male','02/15/2000','None','Expert','Teen');
+
+INSERT INTO person VALUES('img_991-116-5555.png','Pooja','','Sudanathan','Majama che', '', 'Tuscon','AZ','41563','991-116-5555','potaatharashetakatara@mekaykaru.com','Other','02/02/1945','OCD, Schizhophrenia','Expert', 'Senior');

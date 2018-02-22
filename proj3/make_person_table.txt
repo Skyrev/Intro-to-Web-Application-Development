@@ -1,0 +1,22 @@
+use jadrn054;
+
+drop table if exists person;
+
+create table person(
+	pic varchar(20) NOT NULL,
+    firstname varchar(50) NOT NULL,
+	middlename varchar(50),
+	lastname varchar(50) NOT NULL,
+    addrline1 varchar(100) NOT NULL,
+	addrline2 varchar(100),
+    city varchar(30) NOT NULL,
+    state char(2) NOT NULL,
+    zip char(5) NOT NULL,
+	phone char(12) NOT NULL,
+    emailid varchar(50) NOT NULL,
+	gender varchar(6) NOT NULL,
+	dob char(10) NOT NULL,
+	medcond varchar(100),
+	explvl varchar(11) NOT NULL,
+	category varchar(6) NOT NULL);
+	

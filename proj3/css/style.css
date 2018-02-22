@@ -1,0 +1,345 @@
+/*
+	Revankar, Akash
+	jadrn054
+	Project #3
+	Fall 2017
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	/*
+	Parallax scrolling effect.
+	https://www.w3schools.com/howto/howto_css_parallax.asp 
+	*/
+	background-image: url('../images/bg_home.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+	font-family: 'Rajdhani', Helvetica, Arial, 'Trebuchet MS';
+	font-size: 17px;
+}
+
+.container {
+	color: #000000;
+	font-weight: 400;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 800px;
+}
+
+.banner {
+	text-align: center;
+	height: 90px;
+	font-size: 30px;
+	background-color: rgba(0, 0, 0, 0.45);
+}
+
+.banner h1 {
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Prompt', Helvetica, Arial, 'Trebuchet MS';
+	color: #ffffff;
+}
+
+h1 a:link,
+h1 a:active,
+h1 a:visited,
+h1 a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#logo {
+	vertical-align: text-top;
+	margin-left: 10px;
+	margin-right: 3px;
+}
+
+.menu_bar {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 10px;
+	list-style-type: none;
+	background-color: rgba(255, 255, 255, 0.75);
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+	
+.menu_bar .menu_item { 
+	display: inline;
+	font-size: 17px;
+	color: #ffffff;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.menu_item a {
+	text-decoration: none;
+	border-bottom: 3px solid rgba(255, 255, 255, 0);
+	padding: 10px 10px 7px 10px;
+}
+
+li a:link,
+li a:active,
+li a:visited {
+	color: #000000;
+}
+
+li a:hover {
+	color: #ffffff;
+	background-color: #c53c3a;
+	border-bottom-color: #c53c3a;
+}
+
+.home_contents {
+	width: 55%;
+	position: relative;
+	top: 10px;
+	left: 60px;
+	margin-bottom: 80px;
+}
+
+.home_contents h2 {
+	margin-top: 40px;
+	text-decoration: underline;
+}
+
+.home_contents p {
+	margin-top: 5px;
+	margin-bottom:15px;
+}
+
+#map {
+	border: 2px solid rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+
+#link {
+	font-style: italic;
+	font-weight: 600;
+}
+
+.signup_form_container, .login_form_container, .msg_container,
+.report_container {
+	width: 705px;
+	position: relative;
+	margin: 30px auto 20px auto;
+	color: #ffffff;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 10px 0;
+	border: 2px solid rgba(0, 0, 0, 0.35);
+	border-radius: 4px;
+}
+
+.msg_container, .report_container {
+	text-align: center;
+}
+
+.report_header {
+	margin-top: 30px;
+}
+
+#user_details {
+	margin: 20px auto;
+}
+
+.report_table {
+	margin: 0 auto 10px auto;
+}
+
+.report_table td {
+	vertical-align: bottom;
+	width: 340px;
+}
+
+.report_table tr:nth-child(3n) td:first-child, .report_table tr:nth-child(3n+1) td:first-child {
+	padding-bottom: 20px;
+}
+
+#user_details td {
+	width: 200px;
+}
+	
+.details_col_1 {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.details_col_2 {
+	text-align: left;
+	padding-left: 10px;
+}
+
+.required {
+	vertical-align: super;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ff0000;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+#note {
+	font-size: 13px;
+	font-style: italic;
+	text-align: center;
+	margin: 10px 0 30px 0;
+}
+
+#signup_form h2, #login_form h2 {
+	text-align: center;
+}
+
+#login_form table {
+	margin: 20px auto;
+}
+
+#signup_form td {
+	width: 250px;
+	vertical-align: top;
+	padding-left: 32px;
+	padding-right: 32px;
+}
+
+#login_form td {
+	vertical-align: top;
+	width: 100px;
+	padding: 0;
+}
+
+textarea {
+	max-width: 300px;
+	min-width: 300px;
+	min-height: 60px;
+	max-height: 60px;
+	border-radius: 2px;
+	font-family: 'Rajdhani', Helvetica, Arial, 'Trebuchet MS';
+	font-size: 14px;
+}
+
+#img_max_size {
+	font-size: 11px;
+	margin-top: 2px;
+}
+
+#char_count {
+	font-size: 13px;
+}
+
+input[name="addrline1"], input[name="addrline2"], input[name="emailid"] {
+	width: 195px;
+}
+
+input[name="state"] {
+	width: 40px;
+}
+
+input[name="zip"] {
+	width: 50px;
+}
+
+input[name="dob"] {
+	width: 80px;
+}
+
+input {
+	height: 18px;
+	border-radius: 2px;
+	font-family: 'Rajdhani', Helvetica, Arial, 'Trebuchet MS';
+	font-size: 14px;
+}
+
+.buttons {
+	width: 300px;
+	text-align: center;
+	margin: 10px auto 20px auto;
+}
+
+button {
+	font-family: 'Rajdhani', Helvetica, Arial, 'Trebuchet MS';
+	font-size: 14px;
+	border-radius: 2px;
+	background-color: #ffffff;
+}
+
+button[type="reset"] {
+	margin-right: 30px;
+	padding: 5px 10px;
+}
+
+button[type="submit"] {
+	margin-left: 30px;
+	padding: 5px 21px;
+}
+
+.disabled {
+	color: #000000;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.errors {
+	font-size: 11px;
+	font-weight: 600;
+	height: 15px;
+	color: #ff0000;
+	margin-bottom: 12px;
+}
+
+.error_background {
+	display: inline-block;
+	background-color: rgba(255, 255, 255, 0.85);
+	padding: 1px 3px;
+	margin-top: 1px;
+}
+
+.form_error {
+	width: 100%;
+	text-align: center;
+	color: #ff0000;
+	margin-bottom: 30px;
+	padding: 0;
+}
+
+#bottom_note {
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+	color: #ffffff;
+	margin: 10px 0 30px 0;
+}
+
+.highlight {
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+::selection {
+	background-color: rgba(0, 0, 0, 0.35);
+}
+
+.footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	font-size: 10px;
+	text-align: right;
+	background-color: #fcfcfc;
+	color: #000000;
+}
