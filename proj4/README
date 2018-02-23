@@ -1,0 +1,57 @@
+For this assignment, you will create an online store web site that features products from a fictional company,
+Bertha's Deluxe Chocolates. This company produces fine chocolates and confections for sale over the Internet.
+You will create the online store front for the company that allows customers to browse the various product offerings,
+and purchase products online. Your site must feature a shopping cart that allows customers to add or remove items.
+
+
+Main page must include the following:
+
+Links: Home, Products, Order Online, About Us, Contact.
+Home: Brings the user back to the main page.
+Products: A description of the types of candies available for order. Products should be organized by category.
+Order Online: An order form for the customer to select the types of chocolates to order and the quantity of each. Look at existing online order forms for ideas of the best way to organize your checkout form. Users must be able to edit the quantity or remove an item. The total (extended amount) for an item must change dynamically when the user changes the quantity field. At the bottom your form should show a grand total for the order.
+The About Us and Contact links are static pages with appropriate fictional details.
+The products should be organized by categories:
+  Milk chocolate
+  Dark chocolate
+  Nuts and chews
+  Brittles and toffies
+  Truffles
+  Gifts
+  Holiday assortments
+
+The order form should have the following fields:
+  Billing Address
+  First Name
+  Last Name
+  Address (two lines)
+  City/State/Zip
+  Phone
+  Shipping Address
+  First Name
+  Last Name
+  Address (two lines)
+  City/State/Zip
+  Phone
+  Payment Type (Visa, Mastercard, Discover, American Express)
+  Card Number
+  Expiration Date
+  
+Charge $2.00 shipping fee for each item.
+Use the tax rate in San Diego for all purchaes (8.0%).
+
+The application must be user-friendly. Many customers will order products for themselves.
+They should not have to re-enter the same information twice. Perhaps a "Ship to same address" checkbox can be used to
+determine whether or not to autofill the second name/address block.Think carefully about enhancing the customer experience.
+
+Note that you are not storing any customer information. This was done to keep the size of the project manageable. You will only store the information needed for the report:
+date
+sku
+quantity
+
+The additional report fields (see below) can be obtained by a database query.
+
+Once the order is submitted, the customer should receive a confirmation that includes details of the order, including tax, shipping charges and a total, as well as the address where the order is to be shipped. Do not print credit card numbers to screen *ever*. You may let the customer know which card was used by showing only the last four digits, preceded by X's. ie XXXX XXXX XXXX 3281.
+
+Prepare a sales report that shows total sales and profit for each product sold, ordered by SKU, with a grand total for gross sales and profit at the bottom. Your report should be available at the following URL:
+http://jadran.sdsu.edu/perl/jadrnxxx/report.cgi
