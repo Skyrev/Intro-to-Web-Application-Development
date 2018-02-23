@@ -1,0 +1,31 @@
+This is part 2 of proj2, i.e. the server-side portion of the application.
+
+Project #3 will add the following features:
+AJAX to verify that the form to be submitted is not a duplicate.
+A php script that reads the parameters from the form and stores them in your MySQL database on opatija.sdsu.edu. We will discuss database design and a sample DB schema will be provided.
+You must also upload and store the runner's image on the server. Do not store the actual image in the MySQL database, store only the name and use a folder on the server for the image file.
+A report that gives the roster of the runners, grouped by category (teen, adult, senior) and alphabetized by last name. The report should contain the following information:
+Runner's last name, first name
+The runner's image
+Runner's age at the time the report is generated
+Runner's experience level.
+the report must be accessible only after a login.
+A confirmation page
+
+Files
+
+Landing page (index.html) - html part 1 (proj2)
+Enrollment Form - html part 1 (proj2)
+Confirmation page - php part 2
+Error page or message - php part 2
+Login Screen for the report, below
+Roster Report - php part 2
+
+Login Screen
+The Roster Report must be password protected, and should be accessable at the following URL:
+http://jadran.sdsu.edu/~jadrnxxx/proj3/report.php.
+Accessing that URL should bring up a login screen that will have a single field, the password.
+There are no individual users, hence only a password field.
+You must NOT hard the passwords in your php code, but rather store them encrypted in a text file on the server.
+If the user supplies an incorrect password then you should display an error message.
+If the correct password is supplied, then the report should load.
