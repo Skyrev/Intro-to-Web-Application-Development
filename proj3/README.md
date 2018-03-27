@@ -22,7 +22,7 @@
   <li>Enrollment Form - html part 1 (proj2)</li>
   <li>Confirmation page - php part 2</li>
   <li>Error page or message - php part 2</li>
-  <li><li>Login Screen for the report, below</li>
+  <li>Login Screen for the report, below</li>
   <li>Roster Report - php part 2</li>
 </ul>
 
