@@ -1,5 +1,5 @@
 <h2>SDSU Marathon</h2>
-<p>This assignment is a web site that lets users sign up for the ficticious SDSU Marathon. The ficticious marathon will occur on Sunday December 3, 2017 and will start at the SDSU Library.</p>
+<p>This assignment is a web site that lets users sign up for the fictitious SDSU Marathon. The ficticious marathon will occur on Sunday December 3, 2017 and will start at the SDSU Library.</p>
 <p>Any additional details are made up.</p>
 <br/>
 <p>This consist of the following:</p>
