@@ -62,7 +62,7 @@ determine whether or not to autofill the second name/address block.Think careful
   <li>quantity</li>
 </ul>
 <br/>
-<p>Once the order is submitted, the customer should receive a confirmation that includes details of the order, including tax, shipping charges and a total, as well as the address where the order is to be shipped. Do not print credit card numbers to screen *ever*. You may let the customer know which card was used by showing only the last four digits, preceded by X's. ie XXXX XXXX XXXX 3281.</p>
+<p>Once the order is submitted, the customer should receive a confirmation that includes details of the order, including tax, shipping charges and a total, as well as the address where the order is to be shipped. You may let the customer know which card was used by showing only the last four digits, preceded by X's. ie XXXX XXXX XXXX 3281.</p>
 <br/>
 <p>Prepare a sales report that shows total sales and profit for each product sold, ordered by SKU, with a grand total for gross sales and profit at the bottom. Your report should be available at the following URL:
 http://jadran.sdsu.edu/perl/jadrnxxx/report.cgi</p>
